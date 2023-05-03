@@ -1,0 +1,65 @@
+.hero_img {
+  height: 400px;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Components/images/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.hero_img .title {
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+  right: auto;
+}
+.hero_img .title h1 {
+  font-size: 72px;
+  letter-spacing: 0.25em;
+  font-weight: 500;
+}
+.hero_img .title h1 span {
+  font-weight: 300;
+}
+.hero_img .title p {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.13em;
+}
+.hero_img .title p span {
+  color: rgb(7, 223, 223);
+}
+
+
+/* buttons add to card */
+.d-flex .addto_cart_btn, .addto_lookbook_btn {
+  background: #fff;
+  color: black;
+  height: 40px;
+  border: solid 2px #000;
+  outline: none;
+  font-size: 12px;
+  font-weight: 500;
+  width: 140px;
+  letter-spacing: 1px;
+  padding: 5px;
+}
+.addto_lookbook_btn {
+  width: 200px;
+}
+.addto_cart_btn:hover {
+  background: #000;
+  color: #fff;
+}
+.addto_lookbook_btn:hover {
+  background: #000;
+  color: #fff;
+
+}
+
+/* carusal img  */
+.d-block {
+  height: 650px;
+}

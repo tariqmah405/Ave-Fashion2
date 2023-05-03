@@ -1,0 +1,30 @@
+.navbar {
+
+}
+.navbar .nab_brand > span{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+.navbar .nab_brand{
+    font-weight: 500;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: right;
+    margin-right: 30px;
+}
+.navbar-expand-lg .navbar-nav {
+    margin-right: 20px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-weight: 500;
+}
+.navbar-expand-lg .navbar-collapse .d-flex .me-2 {
+    position: relative;
+}
+.navbar-expand-lg .navbar-collapse .d-flex .search {
+    font-size: 35px;
+    position: absolute;
+    top: 15px;
+    right: 60px;
+}

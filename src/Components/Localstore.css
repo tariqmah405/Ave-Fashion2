@@ -1,0 +1,17 @@
+.btn_view {
+    width: 180px;
+    height: 50px;
+    border: solid 2px #000;
+    letter-spacing: 2px;
+    background: #fff;
+  }
+  .btn_view:hover {
+    background: #71c5af; 
+    color: #fff;
+    border: none;
+  }
+
+  img {
+    width: 100%;
+    height: 380px;
+  }
